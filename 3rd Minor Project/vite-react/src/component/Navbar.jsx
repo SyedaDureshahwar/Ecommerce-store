@@ -53,6 +53,10 @@ const Navbar = () => {
                   <Link className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/products">Products</Link>
                   <Link className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/admin/products">Admin Panel</Link>
                   <Link className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/contact">Contact</Link>
+                  <Link className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/order-history">Order History</Link>
+
+                  
+        
                   <Link className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center" to="/cart">
                     <FiShoppingCart className="mr-1" /> Cart
                   </Link>
@@ -72,6 +76,7 @@ const Navbar = () => {
             <Link className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/admin/products">Admin Panel</Link>
             <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to="/products">Products</Link>
             <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium" to="/contact">Contact</Link>
+            <Link className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/order-history">Order History</Link>
             <Link className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium flex items-center" to="/cart">
               <FiShoppingCart className="mr-1" /> Cart
             </Link>
